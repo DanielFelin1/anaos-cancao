@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'lotr';
+    src: url('fonte/RINGM___.TTF') format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: white;
+}
+body a:hover{
+    text-decoration: underline;
+}
+body p{
+    font-family: 'lotr', Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 300px;
+    font-size: 2.7vw;
+    text-align: center;
+    color: white;
+}
+header h1{
+    font-family: 'lotr';
+    padding-top: 103px;
+}
+
+section{
+    font-size: 2.3vw;
+    line-height: 5vw;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+section p{
+    margin-left: 20px;
+}
+.container{
+    background-color: lightgray;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.432);
+}
+.container > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 7px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+#img1container{
+    background-image: url('imagens/khazad-dum.jpg');
+    background-repeat: no-repeat;
+}
+#img2container{
+    background-image: url('imagens/arvoreelfica.jpg');
+    background-position: center top;
+}
+#img3container{
+    background-image: url('imagens/Smaug\ \,\ Eliza\ Sirin.jpeg');
+    background-position: bottom center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
