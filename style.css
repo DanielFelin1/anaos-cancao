@@ -43,7 +43,7 @@ section p{
     margin-left: 20px;
 }
 .container{
-    background-color: lightgray;
+    background-color: rgb(204, 100, 100);
     background-attachment: fixed;
     background-size: cover;
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.432);
