@@ -22,10 +22,10 @@ body p{
 }
 
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-size: 3.6vw;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 header h1{
     font-family: 'lotr';
@@ -43,7 +43,6 @@ section p{
     margin-left: 20px;
 }
 .container{
-    background-color: rgb(204, 100, 100);
     background-attachment: fixed;
     background-size: cover;
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.432);
@@ -51,13 +50,12 @@ section p{
 .container > p{
     padding: 20px 20px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(27, 27, 27, 0.39);
     text-shadow: 1px 1px 1px black;
     color: white;
 }
 #img1container{
     background-image: url('imagens/khazad-dum.jpg');
-    background-repeat: no-repeat;
 }
 #img2container{
     background-image: url('imagens/arvoreelfica.jpg');
@@ -71,6 +69,7 @@ section p{
 footer{
     background-color: black;
     color: white;
+    text-decoration: underline;
 }
 footer p{
     font-family: Arial, Helvetica, sans-serif;
